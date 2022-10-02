@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--Tested in Windows- Chrome and Firefox-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assignment-02.css" rel="stylesheet">
+    <!--link to font as asked for in assignment discription-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class = game>
+        <div id="black"></div>
+        <div id="redBlack" ></div>
+        <button id="redCircle" onclick ="whichPress('redCircle')"></button>
+        <div id="blueBlack"></div>
+        <button id="blueCircle" onclick ="whichPress('blueCircle')"></button>
+        <div id="greenBlack"></div>
+        <button id="greenCircle" onclick ="whichPress('greenCircle')"></button>
+        <div id="yellowBlack"></div>
+        <button id="yellowCircle" onclick ="whichPress('yellowCircle')"></button>
+        <input type=button id="highscore" value="00">
+        <input type=button id="score" value="00">
+        <button id="start" onclick = "start()" >START</button>
+        <div id="dot"></div>
+        </div>
+</body>
+<script type="text/javascript" src="assignment-02.js"></script>
+<!--for jquery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</html>
