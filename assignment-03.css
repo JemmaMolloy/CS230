@@ -1,0 +1,59 @@
+table {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #dddddd;
+  }
+  td:nth-child(n+3) {
+    text-align: center;
+  }
+  td:nth-child(8){
+    text-align: right;
+  }
+  th {
+    background-color: #999999;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  #number{
+    font-family: sans-serif;
+    position: absolute;
+  }
+  #counter{
+    font-family: sans-serif;
+    position: absolute;
+    left: 300px;
+  }
+  #addRow{
+    font-family: sans-serif;
+    position: absolute;
+    height: 30px;
+     width: 110px;
+    font-size: 15px;
+  }
+  #addCol{
+    font-family: sans-serif;
+    position: absolute;
+    left: 125px;
+    height: 30px;
+    width: 110px;
+    font-size: 15px;
+  }
+  #addData {
+    font-family: sans-serif;
+    position: absolute;
+    left: 245px;
+    height: 30px;
+    width: 110px;
+    font-size: 15px;
+  }

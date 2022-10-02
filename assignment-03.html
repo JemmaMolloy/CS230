@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<!--Inspiration for table and other code from w3schools.com-->
+<!--Names and student numbers made with a random generator, are completley fictional-->
+<!--Code tested on Chrome, Windows-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assignment-03.css" rel="stylesheet">
+</head>
+<body>
+    <table id="myTable">
+        <tr>
+          <th>Name</th>
+          <th>ID</th>
+          <th onclick="selectColumn(2)">Assignment 1</th>
+          <th onclick="selectColumn(3)">Assignment 2</th>
+          <th onclick="selectColumn(4)">Assignment 3</th>
+          <th onclick="selectColumn(5)">Assignment 4</th>
+          <th>Assignment 5</th>
+          <th id="average" onclick="toggle()">Average[%]</th>
+        </tr>
+        <tr>
+          <td onclick="selectRow(1)">John Mahoney</td>
+          <td>1823314</td>
+          <td contenteditable="true" onclick="check(1,3)">-</td>
+          <td contenteditable="true" onclick="check(1,4)">-</td>
+          <td contenteditable="true" onclick="check(1,5)">-</td>
+          <td contenteditable="true" onclick="check(1,6)">-</td>
+          <td contenteditable="true" onclick="check(1,7)">-</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td onclick="selectRow(2)">Eilish Connolly</td>
+          <td>1955623</td>
+          <td contenteditable="true" onclick="check(2,3)">-</td>
+          <td contenteditable="true" onclick="check(2,4)">-</td>
+          <td contenteditable="true" onclick="check(2,5)">-</td>
+          <td contenteditable="true" onclick="check(2,6)">-</td>
+          <td contenteditable="true" onclick="check(2,7)">-</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td onclick="selectRow(3)">Ciara McMillan</td>
+          <td>1766975</td>
+          <td contenteditable="true" onclick="check(3,3)">-</td>
+          <td contenteditable="true" onclick="check(3,4)">-</td>
+          <td contenteditable="true" onclick="check(3,5)">-</td>
+          <td contenteditable="true" onclick="check(3,6)">-</td>
+          <td contenteditable="true" onclick="check(3,7)">-</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td onclick="selectRow(4)">Niall Brennan</td>
+          <td>2079851</td>
+          <td contenteditable="true" onclick="check(4,3)">-</td>
+          <td contenteditable="true" onclick="check(4,4)">-</td>
+          <td contenteditable="true" onclick="check(4,5)">-</td>
+          <td contenteditable="true" onclick="check(4,6)">-</td>
+          <td contenteditable="true" onclick="check(4,7)">-</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td onclick="selectRow(5)">Teresa Maguire</td>
+          <td>1854709</td>
+          <td contenteditable="true" onclick="check(5,3)">-</td>
+          <td contenteditable="true" onclick="check(5,4)">-</td>
+          <td contenteditable="true" onclick="check(5,5)">-</td>
+          <td contenteditable="true" onclick="check(5,6)">-</td>
+          <td contenteditable="true" onclick="check(5,7)">-</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td onclick="selectRow(6)">Sophie Curren</td>
+          <td>2054718</td>
+          <td contenteditable="true" onclick="check(6,3)">-</td>
+          <td contenteditable="true" onclick="check(6,4)">-</td>
+          <td contenteditable="true" onclick="check(6,5)">-</td>
+          <td contenteditable="true" onclick="check(6,6)">-</td>
+          <td contenteditable="true" onclick="check(6,7)">-</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td onclick="selectRow(7)">Saba Noel</td>
+          <td>1763042</td>
+          <td contenteditable="true" onclick="check(7,3)">-</td>
+          <td contenteditable="true" onclick="check(7,4)">-</td>
+          <td contenteditable="true" onclick="check(7,5)">-</td>
+          <td contenteditable="true" onclick="check(7,6)">-</td>
+          <td contenteditable="true" onclick="check(7,7)">-</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td onclick="selectRow(8)">Rupert Tillman</td>
+          <td>1984509</td>
+          <td contenteditable="true" onclick="check(8,3)">-</td>
+          <td contenteditable="true" onclick="check(8,4)">-</td>
+          <td contenteditable="true" onclick="check(8,5)">-</td>
+          <td contenteditable="true" onclick="check(8,6)">-</td>
+          <td contenteditable="true" onclick="check(8,7)">-</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td onclick="selectRow(9)">Faizaan Kumran</td>
+          <td>1723954</td>
+          <td contenteditable="true" onclick="check(9,3)">-</td>
+          <td contenteditable="true" onclick="check(9,4)">-</td>
+          <td contenteditable="true" onclick="check(9,5)">-</td>
+          <td contenteditable="true" onclick="check(9,6)">-</td>
+          <td contenteditable="true" onclick="check(9,7)">-</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td onclick="selectRow(10)">Maya Reese</td>
+          <td>1853321</td>
+          <td contenteditable="true" onclick="check(10,3)">-</td>
+          <td contenteditable="true" onclick="check(10,4)">-</td>
+          <td contenteditable="true" onclick="check(10,5)">-</td>
+          <td contenteditable="true" onclick="check(10,6)">-</td>
+          <td contenteditable="true" onclick="check(10,7)">-</td>
+          <td i>0</td>
+        </tr>
+      </table>
+      <br>
+      <div id="number">Number of Assignments not submitted:</div>
+      <div id="counter" value="0">0</div>
+      <br>
+      <br>
+      <button id="addRow" onclick="addRow()">Add Row</button>
+      <button id="addCol" onclick="addCol()">Add Coloumn</button>
+      <button id="addData" onclick="addData()">Add Data</button>
+      <br>
+      <br>
+      
+</body>
+<script type="text/javascript" src="assignment-03.js"></script>
+</html>
