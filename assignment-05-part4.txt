@@ -1,0 +1,21 @@
+[{
+  "_id": 1,
+  "manufacturer": "Apple",
+  "model": "iphone X",
+  "price": "€400"
+},{
+  "_id": 2,
+  "manufacturer": "Samsung",
+  "model": "Galaxy S20",
+  "price": "350"
+},{
+  "_id": 3,
+  "manufacturer": "Sony",
+  "model": "Xperia 4",
+  "price": "€300"
+},{
+  "_id": 4,
+  "manufacturer": "Hauwei",
+  "model": "P30 Lite",
+  "price": "€250"
+}]
