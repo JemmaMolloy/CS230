@@ -1,0 +1,417 @@
+/* Shapes and buttons inspired from w3schools.com */ 
+#swap1{
+  background-color: #e7e7e7;
+  border: 1px solid grey;
+  outline: none;
+  color: black;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#swap1:hover{
+  background-color: #d9d9d9;
+}
+#swap2{
+  background-color: #e7e7e7;
+  border: 1px solid grey;
+  outline: none;
+  color: black;
+  padding: 8px 10px;
+  
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#swap2:hover{
+  background-color: #d9d9d9;
+}
+
+#section1 {
+  width: 0;
+  height: 0px;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 75px solid red;
+  margin: auto;
+}
+#section2 {
+  border-bottom: 40px solid orange;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  height: 0;
+  width: 110px;
+  margin: 10px auto;
+}
+#section3 {
+  border-bottom: 40px solid gold;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  height: 0;
+  width: 170px;
+  margin: 10px auto;
+}
+#section4 {
+  border-bottom: 40px solid #0099ff;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  height: 0;
+  width: 220px;
+  margin: -10px auto;
+}
+#section5 {
+  border-bottom: 40px solid #996600;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  height: 0;
+  width: 270px;
+  margin: 10px auto;
+}
+#section6 {
+  border-bottom: 40px solid #33cc33;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  height: 0;
+  width: 320px;
+  margin: -10px auto;
+}
+#button11 {
+  background-color: grey;
+  border: none;
+  color: white;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  font-size: 13px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 2px 2px 5px black;
+  left: 13px;
+  bottom: -45px;
+  visibility: hidden;
+}
+#section1:hover #button11
+{
+  visibility: visible;
+}
+#button12 {
+  background-color: grey;
+  border: none;
+  color: white;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  font-size: 13px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 2px 2px 5px black;
+  left: -33px;
+  bottom: -5px;
+  visibility: hidden;
+}
+#section1:hover #button12
+{
+  visibility: visible;
+}
+#count1 {
+  background-color: grey;
+  border: none;
+  color: white;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  font-size: 13px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 2px 2px 5px black;
+  left: -10px;
+  bottom: -25px;
+}
+#button21 {
+  background-color: grey;
+  border: none;
+  color: white;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  font-size: 13px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 2px 2px 5px black;
+  left: 68px;
+  bottom: -15px;
+  visibility: hidden;
+}
+#section2:hover #button21
+{
+  visibility: visible;
+}
+#button22 {
+  background-color: grey;
+  border: none;
+  color: white;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  font-size: 13px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 2px 2px 5px black;
+  left: -28px;
+  bottom: -15px;
+  visibility: hidden;
+}
+#section2:hover #button22
+{
+  visibility: visible;
+}
+#count2 {
+  background-color: grey;
+  border: none;
+  color: white;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  font-size: 13px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 2px 2px 5px black;
+  left: 20px;
+  bottom: -15px;
+}
+#button31 {
+  background-color: grey;
+  border: none;
+  color: white;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  font-size: 13px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 2px 2px 5px black;
+  left: 98px;
+  bottom: -15px;
+  visibility: hidden;
+}
+#section3:hover #button31
+{
+  visibility: visible;
+}
+#button32 {
+  background-color: grey;
+  border: none;
+  color: white;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  font-size: 13px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 2px 2px 5px black;
+  left: 1px;
+  bottom: -15px;
+  visibility: hidden;
+}
+#section3:hover #button32
+{
+  visibility: visible;
+}
+#count3 {
+  background-color: grey;
+  border: none;
+  color: white;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  font-size: 13px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 2px 2px 5px black;
+  left: 49.5px;
+  bottom: -15px;
+}
+#button41 {
+  background-color: grey;
+  border: none;
+  color: white;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  font-size: 13px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 2px 2px 5px black;
+  left: 123px;
+  bottom: -15px;
+  visibility: hidden;
+}
+#section4:hover #button41
+{
+  visibility: visible;
+}
+#button42 {
+  background-color: grey;
+  border: none;
+  color: white;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  font-size: 13px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 2px 2px 5px black;
+  left: 25px;
+  bottom: -15px;
+  visibility: hidden;
+}
+#section4:hover #button42
+{
+  visibility: visible;
+}
+#count4 {
+  background-color: grey;
+  border: none;
+  color: white;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  font-size: 13px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 2px 2px 5px black;
+  left: 73.5px;
+  bottom: -15px;
+}
+#button51 {
+  background-color: grey;
+  border: none;
+  color: white;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  font-size: 13px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 2px 2px 5px black;
+  left: 147px;
+  bottom: -15px;
+  visibility: hidden;
+}
+#section5:hover #button51
+{
+  visibility: visible;
+}
+#button52 {
+  background-color: grey;
+  border: none;
+  color: white;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  font-size: 13px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 2px 2px 5px black;
+  left: 49px;
+  bottom: -15px;
+  visibility: hidden;
+}
+#section5:hover #button52
+{
+  visibility: visible;
+}
+#count5{
+  background-color: grey;
+  border: none;
+  color: white;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  font-size: 13px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 2px 2px 5px black;
+  left: 98px;
+  bottom: -15px;
+}
+#button61 {
+  background-color: grey;
+  border: none;
+  color: white;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  font-size: 13px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 2px 2px 5px black;
+  left: 171px;
+  bottom: -15px;
+  visibility: hidden;
+}
+#section6:hover #button61
+{
+  visibility: visible;
+}
+#button62 {
+  background-color: grey;
+  border: none;
+  color: white;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  font-size: 13px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 2px 2px 5px black;
+  left: 73px;
+  bottom: -15px;
+  visibility: hidden;
+}
+#section6:hover #button62
+{
+  visibility: visible;
+}
+#count6 {
+  background-color: grey;
+  border: none;
+  color: white;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  font-size: 13px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 2px 2px 5px black;
+  left: 122px;
+  bottom: -15px;
+}
+#today{
+  font-size: 13px;
+  bottom: 0px;
+  outline: none;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+#submit{
+  background-color: #e7e7e7;
+  border: 1px solid grey;
+  outline: none;
+  color: black;
+  padding: 2px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  cursor: pointer;
+}
+#submit:hover{
+  background-color: #d9d9d9;
+}

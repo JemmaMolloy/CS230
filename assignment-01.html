@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CS230 Assignment1</title>
+  <link href="assignment-01.css" rel="stylesheet">
+</head>
+<body>
+  
+  <div class="Swap">
+    <button id="swap1" onclick="swap('Under5')">Children Under 5</button>
+    <button id="swap2" onclick="swap('Over5')">Adults, Teens and Children 5+</button>
+  </div>
+  
+<div class="Pyramid">   
+  <div id="section1">
+    <button id="button11"  onclick="decrease(1)">- </button>
+    <input type=button id="count1" value="0">
+    <button id="button12"  onclick="increase(1)">+ </button>
+  </div>
+  <div id="section2">
+    <button id="button21"  onclick="decrease(2)">- </button>
+    <input type=button id="count2" value="0">
+    <button id="button22"  onclick="increase(2)">+ </button>
+  </div>
+  <div id="section3">
+    <button id="button31"  onclick="decrease(3)">- </button>
+    <input type=button id="count3" value="0">
+    <button id="button32"  onclick="increase(3)">+ </button>
+  </div>
+  <div id="section4">
+    <button id="button41"  onclick="decrease(4)">- </button>
+    <input type=button id="count4" value="0">
+    <button id="button42"  onclick="increase(4)">+ </button>
+  </div>
+  <div id="section5">
+    <button id="button51"  onclick="decrease(5)">- </button>
+    <input type=button id="count5" value="0">
+    <button id="button52"  onclick="increase(5)">+ </button>
+  </div>
+  <div id="section6">
+    <button id="button61"  onclick="decrease(6)">- </button>
+    <input type=button id="count6" value="0">
+    <button id="button62"  onclick="increase(6)">+ </button>   
+  </div>
+  </div>
+  <center>
+    <p><b>My Food Pyramid</b></p>
+    <b> <p id="date"></p></b>
+    <div><input type="date" id="today">
+    <button id = "submit" onclick = "date('today')">Submit</button></div>
+  </center>
+<script type="text/javascript" src="assignment-01.js"></script>
+</body>
+</html>
